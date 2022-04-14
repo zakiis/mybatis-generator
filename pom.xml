@@ -5,8 +5,8 @@
   <parent>
     <groupId>io.github.zakiis</groupId>
     <artifactId>zakiis-parent</artifactId>
-    <version>0.0.1</version>
-    <relativePath>../parent/pom.xml</relativePath>
+    <version>0.0.2</version>
+    <!-- <relativePath>../parent/pom.xml</relativePath> -->
   </parent>
   
   <artifactId>zakiis-mybatis-generator</artifactId>

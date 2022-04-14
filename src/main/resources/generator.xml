@@ -25,6 +25,7 @@
 
     <table tableName="user" domainObjectName="User" enableSelectByExample="false" enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="false" />
     <table tableName="address" domainObjectName="Address" enableSelectByExample="false" enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="false" />
+    <table tableName="archive" domainObjectName="Archive" enableSelectByExample="false" enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="false" />
     
   </context>
 </generatorConfiguration>

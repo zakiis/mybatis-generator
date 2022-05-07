@@ -14,13 +14,13 @@
     </jdbcConnection>
     
 
-    <javaModelGenerator targetPackage="com.zakiis.springboot.test.model" targetProject="target/java"/>
+    <javaModelGenerator targetPackage="com.zakiis.spring.test.model" targetProject="target/java"/>
 
     <sqlMapGenerator targetPackage="mapper" targetProject="target">
       <property name="mergeable" value="false"/>
     </sqlMapGenerator>
 
-    <javaClientGenerator type="XMLMAPPER" targetPackage="com.zakiis.springboot.test.mapper" targetProject="target/java"/>
+    <javaClientGenerator type="XMLMAPPER" targetPackage="com.zakiis.spring.test.mapper" targetProject="target/java"/>
     
 
     <table tableName="user" domainObjectName="User" enableSelectByExample="false" enableDeleteByExample="false" enableCountByExample="false" enableUpdateByExample="false" />
